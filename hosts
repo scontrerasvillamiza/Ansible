@@ -1,0 +1,30 @@
+## webservers
+#[localhost]
+#127.0.0.1
+#[NP]
+#52.51.133.138 ansible_ssh_user=scontreras ansible_ssh_private_key_file=~/.ssh/scontreras.pem 
+#[BK]
+#34.250.117.11 ansible_ssh_user=scontreras ansible_ssh_private_key_file=~/.ssh/scontreras.pem
+#[FW]
+#34.250.37.243 ansible_ssh_user=scontreras ansible_ssh_private_key_file=~/.ssh/scontreras.pem
+#[FRON-END-OLD]
+#54.171.69.127 ansible_ssh_user=scontreras ansible_ssh_private_key_file=~/.ssh/scontreras.pem
+#[AWS]
+#52.48.147.44 ansible_ssh_user=scontreras ansible_ssh_private_key_file=~/.ssh/scontreras.pem
+#[OPS]
+#54.77.30.180 ansible_ssh_user=scontreras ansible_ssh_private_key_file=~/.ssh/scontreras.pem
+#[FRON-END-NEW]
+#54.72.163.226 ansible_ssh_user=scontreras ansible_ssh_private_key_file=~/.ssh/scontreras.pem
+
+## dbservers
+#[Moru]
+#52.18.153.6 ansible_ssh_user=scontreras ansible_ssh_private_key_file=~/.ssh/scontreras.pem
+#[PG-PROD]
+#34.251.102.101 ansible_ssh_user=scontreras ansible_ssh_private_key_file=~/.ssh/scontreras.pem
+#[PG-TRANS]
+#54.154.31.76
+#[TID4UDB]
+#52.19.172.215
+[TDXMOVIL]
+192.168.1.142 ansible_user=steven
+

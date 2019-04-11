@@ -1,0 +1,9 @@
+---
+- name: Actualizar Imagen Ubuntu
+  hosts: TDXMOVIL 
+  remote_user: steven
+  become: True
+  tasks:
+   - name: Actualizar imagen de Ubuntu 18.04
+     apt: name=linux-image 4.18.0-17 state=lastest
+...
